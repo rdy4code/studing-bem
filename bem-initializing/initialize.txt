@@ -1,1 +1,32 @@
-"git install + generator-bem-stub" 
+**lvl 1**  
+install git + Node.js  
+    
+https://github.com/bem/project-stub  
+simple bem project example
+
+--ПОДРОБНЫЙ АНАЛИЗ СТАТЬИ-- (для усвоения)  
+https://ru.bem.info/platform/bemjson/
+
+Используются технологии:
+BEMJSON  
+  --bem-xjst  -шаблонизатор для разработки по BEM технологии;
+      --XJST — eXtensible JavaScript Transformations;
+      Содержит 2 движка:
+      BEMHTML — для преобразования BEMJSON в HTML.
+      BEMTREE - для перобразования BEMJSON в БЭМ-дерево.  
+      для этого нужны данные html. (// В принципе понятно)
+BEMHTML
+i-bem.js   
+/* Запомнить легко BEM корень JSON, HTML и i-bem.js  
+опять таки есть "bem". Пардон за тавтологию - пишу для своего понимания */
+
+BEMJSON ?
+BEMHTML ?
+i-bem.js ?
+
+BEMJSON - я понимаю как текстовый ФОРМАТ ДАННЫХ обмена данных для BEM.
+Позволяет прототипировать интерфейс разделяя его на блоки.
+Не привязываясь к верстке. (т.е. логически)  
+?? Но если внутри BEMJSON лежит уже шаблонизатор bem-xjst, так чтоже такое BEMJSON 
+
+
