@@ -1,0 +1,18 @@
+--simple--
+var bemxjst = require('bem-xjst');
+
+// Choose engine BEMHTML
+var bemhtml = bemxjst.bemhtml;
+
+// add templates with compile method
+var templates = bemhtml.compile(() => {
+    block('text')({ tag: 'span' });
+});
+
+-- where the teplates saved?
+
+// add data in BEMJSON format
+var bemjson = [
+    { block: 'text', content: 'First' },
+    { block: 'text', content: 'Second' }
+];
