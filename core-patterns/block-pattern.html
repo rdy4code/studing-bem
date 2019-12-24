@@ -7,11 +7,41 @@
     <title>Document</title>
 </head>
 <body>
+
+    <!-- Block -elements -->
     <div class="block">
         <div class="block__elem1">
             <div class="block__elem2"></div>
         </div>
         <div class="block__elem3"></div>
     </div>
+
+    
+
+    <!-- Block inside another block. 
+    The methodology of BEM doesn't allow to nest an element inside another.
+    Better to separate them in different blocks-->
+
+    <div class="block1">
+        <dlv class="block2">
+            <div class="block2__elem">
+
+            </div>
+        </dlv>
+    </div>
+
+    <!-- MOdificators-->
+
+    <div class="menu">
+        <a href="#" class="menu__link menu__link_state_active"></a>
+    </div>
+
+
+    <!-- References:
+        Zenich, I,(n.d.). Пишем БЭМ правильно. Retrived from
+    https://www.youtube.com/watch?v=hTmxbJF2Tts&fbclid=IwAR3xeI1bePP1hHmmZmmTYE5r3pyjKM_UiwVvOvaOQB_AZ6QBZX36PyWu-Rk
+    -->
+
+
 </body>
 </html>
